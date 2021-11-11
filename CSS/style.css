@@ -1,0 +1,47 @@
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #907aa9;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    color: #2a273f;
+    display: block;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .sidenav a:hover {
+    color: #9ccfd8;
+  }
+
+  .container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+  }
+  
+  .container .box{
+    position: relative;
+    width: calc(300px - 30px);
+    height: calc(200px - 30px);
+    background: #ea9a97;
+    float: left;
+    margin: 15px;
+  }
+
+  .inputboxes{
+    position: center;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+  }
